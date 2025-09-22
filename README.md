@@ -41,7 +41,7 @@ Resuelve la problemática de registros dispersos (biométricos, papel) y reduce 
 ### 1) Firebase
 1. Crear un **Proyecto Firebase**.  
 2. Agregar las apps:
-   - **Android** → descargar `google-services.json` → `Asistencia-GPA/libs/src/`
+   - **Android** → descargar `google-services.json` → `Asistencia-GPA/lib/src/`
 3. Habilitar:
    - **Authentication** → Email/Password ON
    - **Realtime Database**

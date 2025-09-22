@@ -29,7 +29,7 @@ Resuelve la problemática de registros dispersos (biométricos, papel) y reduce 
 
 ## Tecnologías
 
-- **Frontend móvil/web:** Flutter (Dart)  
+- **Frontend móvil/web:** Flutter (Dart) / React JS
 - **Backend & BD:** Firebase (Auth, Realtime Database)  
 - **Geolocalización:** Google Maps SDK  
 - **Arquitectura:** Clean Architecture  

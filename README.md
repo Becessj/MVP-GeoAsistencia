@@ -155,8 +155,6 @@ npm run dev
 ---
 
 ## Capturas
-
-<h3>Capturas</h3>
 <ul>
   <li>Login</li>
   <li>Mapa (IN/OUT)</li>

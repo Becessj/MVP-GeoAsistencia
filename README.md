@@ -142,17 +142,6 @@ npm run dev
 - **FIFO:** secuencia IN → OUT obligatoria.  
 - **Datos trazables:** cada marca incluye `lat`, `lng`.  
 
----
-
-## Roadmap (Futuras versiones)
-
-- Reportes avanzados con gráficos.  
-- Recordatorios de marcaje vía notificaciones.  
-- Modo offline con sincronización diferida.  
-- Integración con nómina/ERP.  
-- Auditoría y detección de anomalías.  
-
----
 
 ## Capturas
 <ul>
@@ -174,6 +163,15 @@ npm run dev
   <img src="screenshots/9.png" width="240" />
 </p>
 
+---
+
+## Roadmap (Futuras versiones)
+
+- Reportes avanzados con gráficos.  
+- Recordatorios de marcaje vía notificaciones.  
+- Modo offline con sincronización diferida.  
+- Integración con nómina/ERP.  
+- Auditoría y detección de anomalías.  
 
 ---
 

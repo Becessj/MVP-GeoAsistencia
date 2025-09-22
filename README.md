@@ -165,15 +165,26 @@ npm run dev
 
 ---
 
-## Roadmap (Futuras versiones)
+## Prototipos en Figma
 
-- Reportes avanzados con gráficos.  
-- Recordatorios de marcaje vía notificaciones.  
-- Modo offline con sincronización diferida.  
-- Integración con nómina/ERP.  
-- Auditoría y detección de anomalías.  
+Para visualizar el flujo de la aplicación antes del desarrollo, se diseñaron prototipos navegables en **Figma**:
 
----
+- **App móvil (Flutter)**
+  - [👉 Ver prototipo en Figma - Mobile](https://www.figma.com/proto/HXsydvoUubD5wUm2yFje6m/GeoAsistencia?node-id=56-1332&t=g9AypqRrXIJBtOKM-1&starting-point-node-id=1%3A2)  
+  - Incluye:
+    - Pantalla de **Login**
+    - **Mapa con geocerca** y botones IN / OUT
+    - **Historial** filtrable por fechas
+    - Perfil de empleado
+
+- **Panel RRHH (React Web)**
+  - [👉 Ver prototipo en Figma - Desktop](https://www.figma.com/proto/1u3JX45sRygenOCViffGQd/Modelo-Control-de-asistencia?node-id=2-2398&starting-point-node-id=2%3A2772&t=u4aypwdZ8bgNuWh8-1)  
+  - Incluye:
+    - **Dashboard** con registros en tiempo real
+    - **Exportación CSV**
+
+
+
 
 ## Equipo
 

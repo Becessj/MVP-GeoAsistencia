@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">677586350027</string>
+    <string name="google_api_key" translatable="false">AIzaSyCcih10lV7ndpwedx0SQsRCKRcOmw3cPvA</string>
+    <string name="google_app_id" translatable="false">1:677586350027:android:e17808f9a6d8f7aeb2d04e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCcih10lV7ndpwedx0SQsRCKRcOmw3cPvA</string>
+    <string name="google_storage_bucket" translatable="false">geoflix-asistencia.firebasestorage.app</string>
+    <string name="project_id" translatable="false">geoflix-asistencia</string>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "677586350027",
+    "project_id": "geoflix-asistencia",
+    "storage_bucket": "geoflix-asistencia.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677586350027:android:e17808f9a6d8f7aeb2d04e",
+        "android_client_info": {
+          "package_name": "example.com.asistencia-gpa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcih10lV7ndpwedx0SQsRCKRcOmw3cPvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

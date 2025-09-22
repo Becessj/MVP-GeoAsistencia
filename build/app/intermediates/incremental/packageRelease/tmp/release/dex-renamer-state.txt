@@ -1,0 +1,4 @@
+#Sun Sep 21 00:15:33 PET 2025
+base.0=I\:\\Asistencia-GPA\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

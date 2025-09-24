@@ -1,0 +1,86 @@
+/* src/styles/asistenciaLocal.css */
+
+/* Contenedor */
+.page {
+  padding: 20px;
+  background: #f8f9fa;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Título */
+.page-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #333;
+  text-align: center;
+}
+
+/* Selectores */
+.select {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.select select {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background: white;
+  font-size: 14px;
+}
+
+/* Tabla */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.table th {
+  background: #7a0b0b;
+  color: white;
+  padding: 12px;
+  text-align: left;
+  font-size: 14px;
+}
+.table td {
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 13px;
+  color: #444;
+}
+.table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+.table tr:hover td {
+  background: #f1f1f1;
+}
+.empty {
+  text-align: center;
+  padding: 20px;
+  color: #888;
+  font-style: italic;
+}
+
+/* Botón exportar */
+.btn-export {
+  padding: 10px 18px;
+  background: #198754;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+}
+.btn-export:hover {
+  background: #157347;
+}
+/* Asegura que el calendario se muestre encima de la tabla */
+.react-datepicker-popper {
+  z-index: 9999 !important;
+}

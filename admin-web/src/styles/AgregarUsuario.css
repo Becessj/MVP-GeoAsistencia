@@ -1,0 +1,127 @@
+/* src/styles/AgregarUsuario.css */
+
+.add-user-page {
+  min-height: 100vh;
+  display:flex;
+  align-items:flex-start;
+  justify-content:center;
+  padding: 32px;
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: #f5f7fb;
+}
+
+.add-user-card {
+  width: 100%;
+  max-width: 1100px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 22px;
+  box-shadow: 0 8px 30px rgba(12, 24, 48, 0.06);
+  color: #0f1724;
+}
+
+.add-user-card h2 {
+  margin: 0 0 6px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.add-user-card p.hint {
+  margin: 0 0 16px;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.form-row {
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+  margin-bottom: 12px;
+}
+
+.form-row.inline {
+  flex-direction: row;
+  gap:12px;
+}
+
+.form-row label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.form-row input,
+.form-row select {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #e6e9ef;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+  background: #ffffff;
+}
+
+.actions {
+  display:flex;
+  gap:12px;
+  margin-top: 14px;
+}
+
+.btn {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn.primary {
+  background: #0f1724;
+  color: #fff;
+}
+
+.btn.ghost {
+  background: transparent;
+  color: #0f1724;
+  border: 1px solid #e6e9ef;
+}
+
+.auth-error {
+  margin-top: 8px;
+  color: #dc2626;
+  font-size: 13px;
+}
+
+.auth-success {
+  margin-top: 8px;
+  color: #16a34a;
+  font-size: 13px;
+}
+
+/* estilos de la tabla (complementarios a styles/table.css) */
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: inherit;
+}
+.users-table thead th {
+  text-align: left;
+  padding: 10px 8px;
+  color: #b91c1c; /* encabezados rojos como tu imagen */
+  font-weight: 700;
+  border-bottom: 1px solid #eee;
+}
+.users-table tbody td {
+  padding: 12px 8px;
+  border-bottom: 1px solid #f3f3f3;
+  vertical-align: middle;
+}
+.users-table tbody tr:hover {
+  background: #fafafa;
+}
+
+/* responsive */
+@media (max-width: 900px) {
+  .add-user-card { padding: 16px; }
+  .add-user-page { padding: 20px; align-items:center; }
+}

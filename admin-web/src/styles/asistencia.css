@@ -1,0 +1,41 @@
+/* src/styles/asistencia.css */
+
+/* Layout */
+.layout {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  min-height: 100vh;
+  background: #f7f7f7;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+/* Main */
+.content { padding: 24px 28px; }
+
+.header {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 20px;
+}
+.header h1 { margin: 0; font-size: 26px; color: #1d1d1f; }
+
+.userbox { display: grid; justify-items: end; position: relative; padding-right: 48px; }
+.userbox__name { font-weight: 700; }
+.userbox__role { font-size: 12px; color: #666; }
+.userbox__avatar {
+  position: absolute; right: 0; top: 0;
+  width: 38px; height: 38px; border-radius: 50%;
+  background: url('https://i.pravatar.cc/80') center/cover no-repeat;
+}
+/* Evita que la barra/toolbar o tarjeta recorten el popup */
+.att-card, .att-toolbar, .toolbar, .select {
+  overflow: visible;  /* importante */
+}
+
+/* Mantén el popup arriba de todo */
+.react-datepicker-popper {
+  z-index: 9999 !important;
+}
+
+
+
+

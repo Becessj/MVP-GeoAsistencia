@@ -1,0 +1,45 @@
+/* src/components/Layout/header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px;
+  background: #ffffff;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Contenedor del título */
+.header__center {
+  flex: 1;
+  text-align: center; /*  cambiarlo a left | center | right */
+}
+
+.header__title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.userbox {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.userbox__name {
+  font-weight: 600;
+  color: #840101;
+}
+
+.userbox__role {
+  font-size: 16px;
+  color: #000000;
+}
+
+.userbox__avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, #ccc, #eee);
+}

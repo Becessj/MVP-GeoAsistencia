@@ -1,0 +1,4 @@
+/* src/components/Layout/layout.css */
+.layout { display: flex; min-height: 100vh; }
+.content { flex:1; background:#f7f9fc; padding: 16px; }
+.page-body { padding: 12px; }

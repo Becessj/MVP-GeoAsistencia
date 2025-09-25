@@ -157,7 +157,9 @@ npm run dev
 </p>
 
 <p>
-  <img src="screenshots/10.png" width="240" />
+  <img src="screenshots/10.png" width="600" />
+</p>
+<p>
   <img src="screenshots/11.png" width="240" />
 </p>
 

@@ -132,7 +132,7 @@ npm run dev
 2. Ubícar dentro de una **location** y marca **IN**.  
 3. Salir de la geocerca → la app no permite marcar.  
 4. Marca **OUT** para cerrar la jornada.  
-5. Verifica historial personal y panel RRHH.  
+5. Verifica historial personal y panel RRHH.  en https://controlasistencia.guamanpoma.org/
 
 ---
 

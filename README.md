@@ -156,6 +156,11 @@ npm run dev
   <img src="screenshots/9.png" width="240" />
 </p>
 
+<p>
+  <img src="screenshots/10.png" width="240" />
+  <img src="screenshots/11.png" width="240" />
+</p>
+
 ---
 
 ## Prototipos en Figma

@@ -12,13 +12,6 @@ export default function Sidebar() {
           Asistencia Local
         </NavLink>
 
-        <NavLink to="/asistencia-local" className={({ isActive }) => isActive ? "navbtn active" : "navbtn"}>
-          Asistencia De Campo
-        </NavLink>
-
-        <NavLink to="/agregar-usuario" className={({ isActive }) => isActive ? "navbtn active" : "navbtn"}>
-          Agregar Usuario
-        </NavLink>
 
         <NavLink to="/login" className="navbtn danger">
           Salir

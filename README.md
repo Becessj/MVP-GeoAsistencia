@@ -132,16 +132,9 @@ npm run dev
 2. Ubícar dentro de una **location** y marca **IN**.  
 3. Salir de la geocerca → la app no permite marcar.  
 4. Marca **OUT** para cerrar la jornada.  
-5. Verifica historial personal y panel RRHH.  
+5. Verifica historial personal y panel RRHH.  en https://controlasistencia.guamanpoma.org/
 
 ---
-
-## Lógica Clave
-
-- **Geocerca:** fórmula Haversine para validar distancia.  
-- **FIFO:** secuencia IN → OUT obligatoria.  
-- **Datos trazables:** cada marca incluye `lat`, `lng`.  
-
 
 ## Capturas
 <ul>
@@ -161,6 +154,11 @@ npm run dev
   <img src="screenshots/7.png" width="240" />
   <img src="screenshots/8.png" width="240" />
   <img src="screenshots/9.png" width="240" />
+</p>
+
+<p>
+  <img src="screenshots/10.png" width="240" />
+  <img src="screenshots/11.png" width="240" />
 </p>
 
 ---

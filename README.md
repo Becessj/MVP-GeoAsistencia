@@ -136,13 +136,6 @@ npm run dev
 
 ---
 
-## Lógica Clave
-
-- **Geocerca:** fórmula Haversine para validar distancia.  
-- **FIFO:** secuencia IN → OUT obligatoria.  
-- **Datos trazables:** cada marca incluye `lat`, `lng`.  
-
-
 ## Capturas
 <ul>
   <li>Login</li>

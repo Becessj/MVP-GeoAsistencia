@@ -186,13 +186,6 @@ Para visualizar el flujo de la aplicación antes del desarrollo, se diseñaron p
 
 
 
-## Equipo
-
-- PEDRO VICTOR RAMOS CHAVEZ   244231@unsaac.edu.pe 
-- CRISTIAN FERNANDO BECERRA YARIN    244212@unsaac.edu.pe
-- EDWARD MACEDO VALERIANO     244222@unsaac.edu.pe
-- BENJAMIN ESPEJO ALVAREZ     244218@unsaac.edu.pe
-
 ---
 
 
